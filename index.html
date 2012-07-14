@@ -1,0 +1,89 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title></title>
+	<meta name="description" content="Meet Deepak Pathak. Web Developer, J2EE Programmer, A R Rahman Fan.">
+	<meta name="author" content="Deepak Pathak">
+
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<style>
+	body {
+	  padding-top: 60px;
+	  padding-bottom: 40px;
+	}
+	</style>
+	<link rel="stylesheet" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans|Open+Sans+Condensed:700' rel='stylesheet' type='text/css'/>
+
+
+	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+
+    <div class="container">
+	<div class="row">
+		<div class="span6">
+			  <div id="pic"><img src="assets/images/pic1.gif" alt="Yeah, that's me !"/></div>
+		</div>
+		<div class="span6 intro">
+			 <h1>hello.</h1><h2 id="stmnt-trigger">I am Deepak Kumar.</h2><br/>
+			 <p id="statement">Web Developer. J2EE Programmer. A R Rahaman Fan.</p>
+			 <p> <a href="blog/" id="button" class="btn btn-large btn-success"><strong>Read The Blog</strong></a></p>
+			 <div class="span3" id="social-links">
+			        <div class="social">
+                    <a href="https://www.facebook.com/deeps.pathak"><img src="assets/images/social/facebook.png" rel='tooltip' title="Contact me on Facebook"/></a>
+                    <a href="https://plus.google.com/111061591677728265080/"><img src="assets/images/social/google.png" rel='tooltip' title="Gimee a +1"/></a>
+                    <a href="http://in.linkedin.com/pub/deepak-kumar/1b/662/a35 "><img src="assets/images/social/linkedin.png" title="Connect on LinkedIn" rel='tooltip'/></a>
+                    <a href="https://twitter.com/deepspathak"><img src="assets/images/social/twitter.png" rel='tooltip' title="Follow me on twitter"/></a>      
+                </div>
+			 </div>
+		</div>
+	</div>
+      <hr>
+
+      <footer>
+	  
+        <div class="site-links">
+					<a href="about.html">About</a>|
+					<a href="contact.html"> Contact </a>
+					</div><br>
+					<p>&copy; Deepak Kumar, 2012 <p>Many Thanks To <a href="http://html5boilerplate.com/">H5BP</a> team, <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>, and <a href="http://en.wikipedia.org/wiki/Caffeine">caffeine</a>.</p>
+      </footer>
+
+    </div> <!-- /container -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+<script src="js/libs/bootstrap/transition.js"></script>
+<script src="js/libs/bootstrap/collapse.js"></script>
+<script src="js/libs/bootstrap/tooltip.js"></script>
+<script src="js/libs/bootstrap/modal.js"></script>
+<script>
+			$(".social img[title]").tooltip({placement:'top'});
+			$(document).ready(function(){
+				$("#stmnt-trigger").hover(function(){
+				$("#statement").toggle('200000');		
+				});
+			});
+</script>
+<script src="js/script.js"></script>
+<script>
+	var _gaq=[['_setAccount','UA-29126360-1'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+</body>
+</html>

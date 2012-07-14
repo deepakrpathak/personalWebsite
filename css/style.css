@@ -1,0 +1,98 @@
+
+
+/* ===== Primary Styles ========================================================
+   Author: Deepak Pathak
+   ========================================================================== */
+   body,html{ background-color:#FFF;font-family:'Open Sans', sans-serif;}
+   img{
+	max-width:100%;
+   }
+	.navbar,.navbar-inner{background:#F2F2F2;font-family:'Oswald', sans-serif;font-size:21px;}
+	.navbar-inner{background:#F2F2F2;}
+	.brand{position:relative}
+	.nav{position:relative}
+	.custom-nav{font-size:24px;}
+	 #pic{margin-top:4%;margin-left:12%}
+	.intro{margin-top:10%;max-width:50%}
+	.intro h1,h2{color:graytext;}
+	.intro h2:hover{color:orangered;text-decoration:underline;}
+	.intro p{font-family:'Open Sans', sans-serif;font-size:16px;}
+	.tooltip {
+		display:none;
+		background:transparent;
+    }
+	#statement{display:none;color:#2E2E2E}
+	#social-links{margin-top:30%;}
+	footer p{font-family:'Lucida Sans Unicode', sans-serif;font-size:12px;text-align:center;}
+	.sidebar{
+		/*border-left:1px dotted graytext;*/
+	}
+	.sidebar p{font-family:'Oswald', sans-serif;font-size:16px;margin:2% 4%;}
+	.sidebar ul,li{
+	list-style:none;
+	margin-top:2%;
+	line-height:200%;
+	}
+	#contacts img{margin-left:10%;}
+	.sidebar h2{color:#000;font-size:18px;text-decoration:none;margin:4% 5%;}
+	.sidebar a{color:graytext;font-size:16px;text-decoration:none;margin-left:4%;}
+	.sidebar a:hover{color:orangered;font-size:16px;text-decoration:underline;margin-left:5px;}
+	.sidebar a:active{color:orangered;font-size:16px;text-decoration:none;margin-left:5px;}
+	.content{margin:4% 5%; text-align:left;}
+	.content h2{font-family:'Oswald', sans-serif;font-size:30px;margin-left:8%;}
+	.content h2:hover{color:orangered;text-decoration:underline;}
+	.content p{
+		font-family:'Open Sans', sans-serif;
+		color:graytext;
+		font-size:20px;
+		line-height:150%;
+		margin:4% 7%;
+	}
+	.in-link{
+		color:orangered;
+		text-decoration:none;
+	}
+	a.in-link{
+		color:orangered;
+		text-decoration:none;
+		cursor:pointer;
+	}
+	a.in-link:hover{
+		color:orangered;
+		text-decoration:underline;
+		cursor:pointer;
+	}
+	a.in-link:active{
+		color:orangered;
+		text-decoration:none;
+		cursor:pointer;
+	}
+	a.in-link:visited{
+		color:orangered;
+		text-decoration:none;
+		cursor:pointer;
+	}
+	.site-links{
+		font-family:'Lucida Sans Unicode', sans-serif;
+		text-align:center;	
+	}
+	.site-links a{font-size:16px;margin:2%}
+	.site-links a:hover{font-size:20px;color:orangered}
+	.modal.fade{
+-webkit-transition:opacity .3s linear;
+-moz-transition:opacity .3s linear;
+-ms-transition:opacity .3s linear;
+-o-transition:opacity .3s linear;
+transition:opacity .3s linear;
+top:-25%;}
+.skill-row{margin:5% 3%;}
+.skill-row img{margin: 1% 2%;}
+
+
+
+
+
+
+
+
+

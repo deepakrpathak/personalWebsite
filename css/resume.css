@@ -1,0 +1,25 @@
+
+ul,li{
+    list-style: none;
+    line-height: 1.5em;
+}
+.hero-unit{
+    background: transparent;
+}
+.hero-unit h1{
+    font-size:35px;
+}
+blockquote{
+    font-family: 'Oswald';
+    font-size: 20px;
+    line-height: 1.5em;
+}
+li.right{
+      text-align: justify;
+}
+ .site-links{
+    font-family:'Lucida Sans Unicode', sans-serif;
+    text-align:center;	
+  }
+  .site-links a{font-size:16px;margin:2%}
+  .site-links a:hover{color:orangered}
