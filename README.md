@@ -2,8 +2,8 @@ Personal Website code
 
 Code for my website deepakpathak.in
 
-Warm courtsey to :
+Warm courtesy to :
 
-Twitter Bootstrap
-HTML5BOILERPLATE
-Veerika's Initializer
+Twitter Bootstrap,
+HTML5BoilerPlate,
+Veerika's Initializer.
